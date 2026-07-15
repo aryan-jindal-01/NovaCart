@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Air Max",
+    "price": 4999,
+    "oldPrice": 6999,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+    "category": "Fashion",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Apple Watch",
+    "price": 19999,
+    "oldPrice": 24999,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+    "category": "Accessories",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "iPhone 16",
+    "price": 79999,
+    "oldPrice": 89999,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500",
+    "category": "Mobiles",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "MacBook Air",
+    "price": 99999,
+    "oldPrice": 114999,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500",
+    "category": "Laptop",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Sony Headphones",
+    "price": 8999,
+    "oldPrice": 11999,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+    "category": "Accessories",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "name": "Gaming Mouse",
+    "price": 2499,
+    "oldPrice": 3499,
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500",
+    "category": "Gaming",
+    "rating": 5
+  }
+]
+

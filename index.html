@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaCart | Premium Online Shopping Platform</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= --> 
+     
+    <header class="header">
+
+    <div class="container navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>NovaCart</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+
+            <div class="search-box">
+                <input
+                     type="text"
+                    id="search"
+                    placeholder="Search Mobiles, Laptops, Beauty..."
+                 >
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <!-- Wishlist -->
+
+           <div class="wishlist-icon">
+
+    <i class="fa-regular fa-heart" id="wishlist-btn"></i>
+
+    <span id="wishlist-count">0</span>
+
+</div>
+
+            <!-- Cart -->
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-count">0</span>
+            </div>
+
+            <!-- Dark Mode -->
+            <i class="fa-solid fa-moon" id="theme-toggle"></i>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+   <!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="container hero-wrapper">
+
+        <div class="hero-left">
+
+            <span class="tag">
+
+             ⚡ Best Deals • Fast Delivery • Secure Payments
+
+             
+
+            </span>
+
+            <h1>
+
+                Premium Shopping
+
+                <br>
+
+                Experience.
+
+            </h1>
+
+            <p>
+
+                Discover fashion, electronics, accessories and premium lifestyle
+                products with exclusive discounts and lightning-fast delivery.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                
+
+            <a href="#products" class="btn-primary">
+
+                   Shop Now
+
+             </a>
+
+                
+
+               <a href="#categories" class="btn-secondary">
+
+                Explore
+
+             </a> 
+
+                
+
+                
+
+            </div>
+
+            <div class="hero-numbers">
+
+                <div>
+
+                    <h2>20K+</h2>
+
+                    <span>Customers</span>
+
+                </div>
+
+                <div>
+
+                    <h2>5000+</h2>
+
+                    <span>Products</span>
+
+                </div>
+
+                <div>
+
+                    <h2>99%</h2>
+
+                    <span>Positive</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <img
+            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+            alt="watch">
+
+        </div>
+
+    </div>
+
+</section>
+
+<div class="container filter-bar">
+
+    <select id="categoryFilter">
+
+        <option value="all">All Categories</option>
+
+        <option value="smartphones">Mobiles</option>
+
+        <option value="laptops">Laptops</option>
+
+        <option value="mens-shirts">Men Fashion</option>
+
+        <option value="mens-shoes">Shoes</option>
+
+        <option value="beauty">Beauty</option>
+
+        <option value="furniture">Furniture</option>
+
+    </select>
+
+</div>
+
+<!-- ================= BRANDS ================= -->
+
+<section class="brands">
+
+    <div class="container brands-container">
+
+        <h4>Trusted By</h4>
+
+        <div class="brand-box">
+
+            <h2>Apple</h2>
+
+            <h2>Samsung</h2>
+
+            <h2>Nike</h2>
+
+            <h2>Adidas</h2>
+
+            <h2>Sony</h2>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories" id="categories">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Shop By Category</h2>
+
+            <p>Choose your favourite category</p>
+
+        </div>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h3>Mobiles</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-laptop"></i>
+                <h3>Laptops</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-shirt"></i>
+                <h3>Fashion</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-headphones"></i>
+                <h3>Accessories</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-couch"></i>
+                <h3>Furniture</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-gamepad"></i>
+                <h3>Gaming</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+ 
+<!-- ================= FEATURED PRODUCTS ================= -->
+
+<section class="products" id="products">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Featured Products</h2>
+
+            <p>Most Popular Products</p>
+
+            <p id="productCount"></p>
+
+        </div>
+
+        <div class="product-grid" id="product-grid">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="why-us" id="about">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Why Choose NovaCart?</h2>
+
+            <p>We provide premium shopping experience.</p>
+
+        </div>
+
+        <div class="why-grid">
+
+            <div class="why-card">
+
+                <i class="fa-solid fa-truck-fast"></i>
+
+                <h3>Fast Delivery</h3>
+
+                <p>Delivery within 24-48 hours across India.</p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <h3>Secure Payment</h3>
+
+                <p>100% secure and trusted payment gateway.</p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fa-solid fa-headset"></i>
+
+                <h3>24/7 Support</h3>
+
+                <p>Our support team is always available.</p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fa-solid fa-box-open"></i>
+
+                <h3>Easy Return</h3>
+
+                <p>7 days hassle free replacement policy.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+    <div class="container newsletter-box">
+
+        <h2>Subscribe Our Newsletter</h2>
+
+        <p>Get latest offers directly in your inbox.</p>
+
+        <div class="newsletter-input">
+
+            <input type="email" placeholder="Enter your email">
+
+            <button>Subscribe</button>
+
+        </div>
+
+    </div>
+
+</section>
+    
+
+
+   <footer class="footer" id="contact">        
+      
+       <div class="container footer-grid">
+
+        <div class="footer-box">
+
+            <h2>NovaCart</h2>
+
+            <p>
+
+              NovaCart is a modern online shopping platform where you can buy
+Mobiles, Laptops, Fashion, Electronics, Furniture, Beauty Products,
+Accessories and many more at the best prices with fast delivery and
+secure payment.
+            
+             <br>
+
+            <p><i class="fa-solid fa-envelope"></i> support@novacart.com</p>
+
+            <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+
+            <p><i class="fa-solid fa-location-dot"></i> Noida, Uttar Pradesh, India</p>
+
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Company</h3>
+
+         <a href="#about">About</a>
+
+         <a href="#products">Products</a> 
+
+         <a href="#categories">Categories</a>
+
+         <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Support</h3>
+
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Help</a>
+
+        </div>
+
+        <div class="footer-box">
+
+    <h3>Follow Us</h3>
+
+    <div class="footer-social">
+
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+    </div>
+
+</div>
+
+    </div>
+      
+
+    <hr style="margin:40px 0;border-color:#374151;">
+
+<div style="text-align:center;">
+
+    <p>© 2026 NovaCart. All Rights Reserved.</p>
+
+    <p style="margin-top:10px;">
+
+        Developed by <strong>Aryan Gupta</strong>
+
+    </p>
+
+</div>
+
+</footer>
+
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
